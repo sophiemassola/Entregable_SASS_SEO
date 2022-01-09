@@ -17,11 +17,12 @@
   box-sizing: border-box; }
 
 body {
-  background-image: url(../fondos/tex2.png);
-  color: chocolate; }
+  background-image: url(../fondos/tex1.png);
+  color: #904000; }
 
 .COLOR {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  border-bottom: #d3d2d2 solid 0.05rem; }
 
 .logo {
   width: 150px; }
@@ -52,7 +53,7 @@ li a:hover {
 .title, .title2 {
   font-family: "Bebas Neue", cursive;
   font-size: 1.4rem;
-  color: chocolate; }
+  color: #904000; }
 
 .subtitle {
   font-family: "MonteCarlo", cursive;
@@ -66,10 +67,14 @@ li a:hover {
   .alto {
     height: 220px; }
   .bb {
-    display: none; } }
+    display: none; }
+  .frase1 {
+    font-size: 2rem; }
+  .frase2 {
+    font-size: 2rem; } }
 
 footer {
-  background-color: sandybrown;
+  background-color: grey;
   padding: 15px; }
   footer h3 {
     font-family: "Bebas Neue", cursive;
