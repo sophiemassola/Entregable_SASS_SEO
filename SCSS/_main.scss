@@ -12,9 +12,14 @@
     justify-content: center;
 }
 .title{
-    @include frases($letra_imprenta,1.5rem)
+    @include frases($letra_imprenta,1.4rem);
+    color: $ct;
 }
 .subtitle{
     @include frases($letra_cursiva,1.6rem);
+    color: $cs;
+}
+.title2{
+    @extend .title;
     color: black;
 }

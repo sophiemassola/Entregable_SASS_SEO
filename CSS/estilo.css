@@ -48,13 +48,17 @@ li a:hover {
   align-items: center;
   justify-content: center; }
 
-.title {
+.title, .title2 {
   font-family: "Bebas Neue", cursive;
-  font-size: 1.5rem; }
+  font-size: 1.4rem;
+  color: chocolate; }
 
 .subtitle {
   font-family: "MonteCarlo", cursive;
   font-size: 1.6rem;
+  color: black; }
+
+.title2 {
   color: black; }
 
 @media screen and (max-width: 480px) {

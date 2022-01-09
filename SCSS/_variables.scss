@@ -9,3 +9,11 @@ $letra_cursiva: 'MonteCarlo', cursive;
     font-family: $ff;
     font-size: $fs;
 }
+
+$titulares: (
+    ct : chocolate,
+    cs : black,
+);
+
+$ct: map-get($titulares, ct);
+$cs: map-get($titulares, cs);
