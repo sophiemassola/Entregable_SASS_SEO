@@ -37,38 +37,51 @@ li a:hover {
   font-size: 2.6rem; }
 
 .frase2 {
-  font-family: 'MonteCarlo', cursive;
+  font-family: "MonteCarlo", cursive;
   font-size: 2.5rem; }
 
 .alto {
-  height: 400px; }
+  height: 500px; }
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem; }
+
+.subtitle {
+  font-family: "MonteCarlo", cursive;
+  font-size: 1.6rem;
+  color: black; }
 
 @media screen and (max-width: 480px) {
   .alto {
-    height: 200px; }
+    height: 220px; }
   .bb {
     display: none; } }
 
 footer {
   background-color: sandybrown;
   padding: 15px; }
+  footer h3 {
+    font-family: "Bebas Neue", cursive;
+    color: black;
+    font-size: 1rem; }
 
 .wapp {
   display: flex;
-  justify-content: right;
-  align-items: center; }
+  align-items: center;
+  justify-content: right; }
   .wapp img {
     width: 25px; }
 
 .insta {
   display: flex;
-  justify-content: left;
-  align-items: center; }
+  align-items: center;
+  justify-content: left; }
   .insta img {
     width: 25px;
     margin-left: 10px; }
-
-h3 {
-  font-family: "Bebas Neue", cursive;
-  color: black;
-  font-size: 1rem; }

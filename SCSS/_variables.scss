@@ -1,1 +1,11 @@
 $letra_imprenta: 'Bebas Neue', cursive;
+$letra_cursiva: 'MonteCarlo', cursive;
+
+@mixin contenido_flex{
+    display: flex;
+    align-items: center; 
+}
+@mixin frases ($ff, $fs){
+    font-family: $ff;
+    font-size: $fs;
+}
