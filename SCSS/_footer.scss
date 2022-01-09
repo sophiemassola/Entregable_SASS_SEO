@@ -1,0 +1,26 @@
+footer{
+    background-color: sandybrown;
+    padding: 15px;
+}
+.wapp{
+    display: flex;
+    justify-content: right;
+    align-items: center;  
+    img{
+        width: 25px;
+    } 
+}
+.insta{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    img{
+        width: 25px;
+    margin-left: 10px;
+    }
+}
+h3{
+    font-family: $letra_imprenta;
+    color: black;
+    font-size: 1rem;
+}

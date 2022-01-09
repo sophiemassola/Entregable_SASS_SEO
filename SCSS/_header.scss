@@ -1,0 +1,16 @@
+.COLOR{
+    background-color: whitesmoke;
+}
+.logo{
+    width: 150px;
+}
+.mr{
+    margin-right: 60px;
+}
+li{
+    a{
+        &:hover{
+            font-weight: bold;
+        }
+    }
+}

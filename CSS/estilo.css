@@ -1,1 +1,74 @@
-/*probando*/
+.boton {
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0.5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0.5; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../fondos/tex2.png);
+  color: chocolate; }
+
+.COLOR {
+  background-color: whitesmoke; }
+
+.logo {
+  width: 150px; }
+
+.mr {
+  margin-right: 60px; }
+
+li a:hover {
+  font-weight: bold; }
+
+.frase1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.6rem; }
+
+.frase2 {
+  font-family: 'MonteCarlo', cursive;
+  font-size: 2.5rem; }
+
+.alto {
+  height: 400px; }
+
+@media screen and (max-width: 480px) {
+  .alto {
+    height: 200px; }
+  .bb {
+    display: none; } }
+
+footer {
+  background-color: sandybrown;
+  padding: 15px; }
+
+.wapp {
+  display: flex;
+  justify-content: right;
+  align-items: center; }
+  .wapp img {
+    width: 25px; }
+
+.insta {
+  display: flex;
+  justify-content: left;
+  align-items: center; }
+  .insta img {
+    width: 25px;
+    margin-left: 10px; }
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  font-size: 1rem; }
