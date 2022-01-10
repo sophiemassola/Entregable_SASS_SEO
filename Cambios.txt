@@ -1,0 +1,7 @@
+- Agregué variables de letras, 2 mixin y un map. Esto se encuentran declarados en la carpeta de Variables en SASS.
+
+- En el main incluyo los mixin e incorporo un extend.
+
+- En footer incluyo mixin.
+
+- En todas las páginas les agregué título y puse la description y palabras clave del SEO en el head.
