@@ -17,12 +17,11 @@
   box-sizing: border-box; }
 
 body {
-  background-image: url(../fondos/tex1.png);
+  background-color: whitesmoke;
   color: #904000; }
 
 .COLOR {
-  background-color: whitesmoke;
-  border-bottom: #d3d2d2 solid 0.05rem; }
+  background-color: whitesmoke; }
 
 .logo {
   width: 150px; }
