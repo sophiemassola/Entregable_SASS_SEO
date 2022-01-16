@@ -1,5 +1,5 @@
 .frase1{
-    @include frases($letra_cursiva,3.3rem)
+    @include frases($letra_cursiva, 4rem)
 }
 .alto{
     height: 600px;
@@ -9,7 +9,7 @@
     justify-content: center;
 }
 .title{
-    @include frases($letra_imprenta,1.4rem);
+    @include frases($letra_imprenta,1.2rem);
     color: $ct;
 }
 .subtitle{
@@ -18,5 +18,12 @@
 }
 .title2{
     @extend .title;
+    color: black;
+}
+.lbotones{
+    @include frases($letra_imprenta,1rem)
+}
+.exp{
+    @include frases($letra_cursiva, 1.2rem);
     color: black;
 }
