@@ -1,12 +1,8 @@
 .frase1{
-    @include frases($letra_imprenta,2.6rem)
-}
-.frase2{
-    @include frases($letra_cursiva,2.5rem);
-    color: black;
+    @include frases($letra_cursiva,3.3rem)
 }
 .alto{
-    height: 500px;
+    height: 600px;
 }
 .video{
     @include contenido_flex;
