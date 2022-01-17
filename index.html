@@ -19,38 +19,50 @@
     <title>Vivi Espacio | Menú Principal</title>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light  COLOR mb-5">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="./media/Logofinal.jpeg" class="logo mr" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item mr">
-                <a class="nav-link lmenu1" href="bio.html">Trayectoria</a>
-              </li>
-              <li class="nav-item dropdown mr">
-                <a class="nav-link dropdown-toggle lmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Trabajos
-                </a>
-                <ul class="dropdown-menu COLOR" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item lmenud" href="cuadros.html">Cuadros</a></li>
-                  <li><a class="dropdown-item lmenud" href="esculturas.html">Esculturas</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light COLOR">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="./media/Logofinal.jpeg" class="logo mr" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item mr">
+                    <a class="nav-link" href="bio.html">Trayectoria</a>
+                  </li>
+                  <li class="nav-item dropdown mr">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trabajos
+                    </a>
+                    <ul class="dropdown-menu COLOR" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="cuadros.html">Cuadros</a></li>
+                      <li><a class="dropdown-item" href="esculturas.html">Esculturas</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link lmenu" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-</header>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
     <main class="container">
       <section>
-        <div id="carouselExampleIndicators" class="carousel slide w-100 m-auto" data-bs-ride="carousel">
+          <h1 class="animate__animated animate__flip frase1 text-center mt-5">
+              Cuadros y esculturas a pedido
+          </h1>
+          <h2 class="frase2 text-center mt-4 mb-5">
+            Formá parte del proceso de tu próxima obra de arte
+          </h2>
+      </section>
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide w-75 m-auto" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -78,14 +90,14 @@
         </div>
       </section>
       <section class="bb">
-        <p class="text-center lbotones">
-          <button class="btn btn-secondary m-auto boton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        <p class="text-center">
+          <button class="btn btn-dark m-auto boton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
             Más info
           </button>
         </p>
         <div style="min-height: 120px;">
           <div class="collapse collapse-horizontal m-auto" id="collapseWidthExample">
-            <div class="card card-body m-auto estilo exp mb-4" style="width: 300px;">
+            <div class="card card-body m-auto subtitle" style="width: 300px;">
               Todos los cuadros y esculturas son realizados a mano y a pedido. ¡Vos podes ser parte del proceso y personalizar tu próxima obra de arte!
             </div>
           </div>

@@ -1,9 +1,9 @@
 .COLOR{
     background-color: whitesmoke;
-
+    border-bottom: rgb(211, 210, 210) solid 0.05rem;
 }
 .logo{
-    width: 170px;
+    width: 150px;
 }
 .mr{
     margin-right: 60px;
@@ -14,15 +14,4 @@ li{
             font-weight: bold;
         }
     }
-}
-.lmenu1{
-    @extend .lmenu;
-    margin-left: 650px;
-}
-.lmenu{
-    @include frases($letra_imprenta,1.4rem);
-    
-}
-.lmenud{
-    @include frases($letra_imprenta,1.1rem);
 }

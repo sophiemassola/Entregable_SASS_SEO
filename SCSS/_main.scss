@@ -1,15 +1,19 @@
 .frase1{
-    @include frases($letra_cursiva, 4rem)
+    @include frases($letra_imprenta,2.6rem)
+}
+.frase2{
+    @include frases($letra_cursiva,2.5rem);
+    color: black;
 }
 .alto{
-    height: 600px;
+    height: 500px;
 }
 .video{
     @include contenido_flex;
     justify-content: center;
 }
 .title{
-    @include frases($letra_imprenta,1.2rem);
+    @include frases($letra_imprenta,1.4rem);
     color: $ct;
 }
 .subtitle{
@@ -18,12 +22,5 @@
 }
 .title2{
     @extend .title;
-    color: black;
-}
-.lbotones{
-    @include frases($letra_imprenta,1rem)
-}
-.exp{
-    @include frases($letra_cursiva, 1.2rem);
     color: black;
 }
